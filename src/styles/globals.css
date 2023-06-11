@@ -8,10 +8,10 @@ html {
   --thumbBG: #b8b8b8;
 }
 body::-webkit-scrollbar {
-  width: 5px;
+  width: 15px;
 }
 body {
-  scrollbar-width: thin;
+  scrollbar-width: auto;
   scrollbar-color: var(--thumbBG) var(--scrollbarBG);
 }
 body::-webkit-scrollbar-track {
