@@ -11,8 +11,42 @@ class MyDocument extends Document {
             as="font"
             href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard/dist/web/static/pretendard-dynamic-subset.css"
           />
-          <link rel="icon" href="/code.ico" />
-          <link rel="apple-touch-icon" href="apple-touch-icon.png"></link>
+          <link
+            rel="icon"
+            type="image/x-icon"
+            href="/favicon-96.ico"
+            sizes="96x96"
+          />
+          <link
+            rel="icon"
+            type="image/x-icon"
+            href="/favicon-48.ico"
+            sizes="48x48"
+          />
+          <link
+            rel="icon"
+            type="image/x-icon"
+            href="/favicon-32.ico"
+            sizes="32x32"
+          />
+          <link
+            rel="icon"
+            type="image/x-icon"
+            href="/favicon-16.ico"
+            sizes="16x16"
+          />
+          <link
+            rel="apple-touch-icon"
+            type="image/png"
+            href="apple-touch-icon.png"
+            sizes="180x180"
+          />
+          <link
+            rel="apple-touch-icon"
+            type="image/png"
+            href="apple-touch-icon-precomposed.png"
+            sizes="120x120"
+          />
           <link
             rel="code-icon"
             type="image/png"
