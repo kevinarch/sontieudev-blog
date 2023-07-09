@@ -4,7 +4,7 @@ import React from "react"
 import dynamic from "next/dynamic"
 import Link from "next/link"
 import Image from "next/image"
-import Code from "react-notion-x/build/third-party/code"
+import { Code } from "react-notion-x/build/third-party/code"
 
 import "prismjs/components/prism-bash.js"
 import "prismjs/components/prism-c.js"
