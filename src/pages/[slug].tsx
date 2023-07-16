@@ -11,7 +11,7 @@ export async function getStaticPaths() {
   const posts = await getPosts()
   const filteredPost = filterPosts(posts, {
     acceptStatus: ["Public", "PublicOnDetail"],
-    acceptType: ["Paper", "Post", "Page"],
+    acceptType: ["Paper", "Post", "Page", "Share"],
   })
 
   return {

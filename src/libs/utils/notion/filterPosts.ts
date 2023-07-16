@@ -7,7 +7,7 @@ type Options = {
 
 const initialOption: Options = {
   acceptStatus: ["Public"],
-  acceptType: ["Post"],
+  acceptType: ["Post", "Share"],
 }
 const current = new Date()
 const tomorrow = new Date(current)

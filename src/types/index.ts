@@ -1,5 +1,5 @@
 export type TPostStatus = "Private" | "Public" | "PublicOnDetail"
-export type TPostType = "Post" | "Paper" | "Page"
+export type TPostType = "Post" | "Paper" | "Page" | "Share"
 
 export type TPost = {
   id: string
@@ -19,6 +19,7 @@ export type TPost = {
   createdTime: string
   fullWidth: boolean
   thumbnail?: string
+  originalUrl?: string
 }
 
 export type TPosts = TPost[]
