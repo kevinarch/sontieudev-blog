@@ -18,18 +18,28 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "sontieu.dev",
-    description: "welcome to my space!",
+    title: "sontieu.dev | We speak tech",
+    description: "This is where I share all my thoughts and useful topics",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 
   // CONFIG configration (required)
   link: "https://sontieu.dev",
-  since: 2022, // If leave this empty, current year will be used.
+  since: 2023, // If leave this empty, current year will be used.
   lang: "en-US", // ['en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES', 'ko-KR']
   ogImageGenerateURL: "https://dynamic-og-image-generator.vercel.app", // The link to generate OG image, don't end with a slash
   seo: {
-    keywords: ["Blog", "Website", "Notion"],
+    keywords: [
+      "Mobile Development",
+      "Android Development",
+      "iOS Development",
+      "Flutter Dev",
+      "mobile dev blog",
+      "flutter",
+      "android dev",
+      "mobile dev",
+      "ios dev",
+    ],
   },
 
   // notion configuration (required)
@@ -39,7 +49,7 @@ const CONFIG = {
 
   // plugin configuration (optional)
   googleAnalytics: {
-    enable: false,
+    enable: true,
     config: {
       measurementId: process.env.NEXT_PUBLIC_GOOGLE_MEASUREMENT_ID || "",
     },
