@@ -1,8 +1,8 @@
 /* NOTION CSS OVERRIDE */
 
 .notion {
-  font-family: Pretendard, Roboto, sans-serif;
-  @apply text-gray-600 dark:text-gray-300;
+  font-family: Roboto, sans-serif;
+  @apply text-gray-700 dark:text-gray-400;
   overflow-wrap: break-word;
 }
 .notion,
