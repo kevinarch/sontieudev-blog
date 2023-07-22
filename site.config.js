@@ -4,7 +4,7 @@ const CONFIG = {
     name: "Son Tieu",
     image: "/myface.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Software Engineer",
-    bio: "This is where I share all my thoughts and useful topics",
+    bio: "This is where I share all my thoughts and useful topics.",
     email: "me@sontieu.dev",
     linkedin: "sontieudev",
     github: "kevinb0ss",
@@ -18,8 +18,8 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "sontieu.dev | We speak tech",
-    description: "This is where I share all my thoughts and useful topics",
+    title: "sontieu.dev | Software Engineering Blog",
+    description: "This is where I share all my thoughts and useful topics.",
     theme: "auto", // ['light', 'dark', 'auto']
   },
 

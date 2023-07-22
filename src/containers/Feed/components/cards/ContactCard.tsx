@@ -34,17 +34,6 @@ const ContactCard: React.FC = () => {
             <div className="text-sm">Instagram</div>
           </a>
         )}
-        {CONFIG.profile.email && (
-          <a
-            href={`mailto:${CONFIG.profile.email}`}
-            rel="noreferrer"
-            target="_blank"
-            className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
-          >
-            <AiOutlineMail className="text-2xl flex-shrink-0" />
-            <div className="text-sm">Email</div>
-          </a>
-        )}
         {CONFIG.profile.linkedin && (
           <a
             href={`https://www.linkedin.com/in/${CONFIG.profile.linkedin}`}
@@ -54,6 +43,17 @@ const ContactCard: React.FC = () => {
           >
             <AiFillLinkedin className="text-2xl flex-shrink-0" />
             <div className="text-sm">Linkedin</div>
+          </a>
+        )}
+        {CONFIG.profile.email && (
+          <a
+            href={`mailto:${CONFIG.profile.email}`}
+            rel="noreferrer"
+            target="_blank"
+            className="overflow-hidden p-3 hover:bg-gray-100 dark:hover:bg-zinc-700 rounded-2xl cursor-pointer flex items-center gap-3 text-gray-500 dark:text-white hover:text-black dark:hover:text-white"
+          >
+            <AiOutlineMail className="text-2xl flex-shrink-0" />
+            <div className="text-sm">{CONFIG.profile.email}</div>
           </a>
         )}
       </ul>
