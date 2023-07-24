@@ -13,7 +13,7 @@ const CONFIG = {
   projects: [
     {
       name: `sontieudev-blog`,
-      href: "https://github.com/kevinb0ss/sontieudev-blog",
+      href: "https://github.com/kevinarch/sontieudev-blog",
     },
   ],
   // blog setting (required)
@@ -63,7 +63,7 @@ const CONFIG = {
   utterances: {
     enable: true,
     config: {
-      repo: "kevinb0ss/sontieudev-blog",
+      repo: "kevinarch/sontieudev-blog",
       "issue-term": "og:title",
       label: "💬 Comments",
     },
