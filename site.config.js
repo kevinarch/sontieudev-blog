@@ -18,7 +18,7 @@ const CONFIG = {
   ],
   // blog setting (required)
   blog: {
-    title: "sontieu.dev | Software Engineering Blog",
+    title: "sontieu.dev | SE Journal",
     description: "This is where I share all my thoughts and useful topics.",
     theme: "auto", // ['light', 'dark', 'auto']
   },
@@ -33,9 +33,10 @@ const CONFIG = {
       "Mobile Development",
       "Android Development",
       "iOS Development",
-      "Flutter Dev",
+      "Flutter Development",
       "mobile dev blog",
       "flutter",
+      "flutter dev",
       "android dev",
       "mobile dev",
       "ios dev",
