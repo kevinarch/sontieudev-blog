@@ -1,5 +1,5 @@
 export const DEFAULT_CATEGORY = "📂 All" as const
-export const COLOR_SET: { [key: string]: string } = {
+export const COLOR_SET: Record<string, string> = {
   0: "bg-sky-200",
   1: "bg-rose-200",
   2: "bg-fuchsia-200",
