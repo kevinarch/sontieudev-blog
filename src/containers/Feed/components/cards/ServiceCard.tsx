@@ -8,6 +8,7 @@ const ServiceCard: React.FC = () => {
     <>
       <div className="p-1 mb-3 dark:text-white">🌟 Services </div>
       <ServiceComponent link="https://files.sontieu.dev" name="Files"/>
+      <ServiceComponent link="https://tools.sontieu.dev" name="Tools"/>
     </>
   )
 }
