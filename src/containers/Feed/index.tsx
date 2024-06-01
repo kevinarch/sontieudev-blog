@@ -51,7 +51,7 @@ const Feed: React.FC<Props> = ({ categories, tags, posts }) => {
       >
         <Cards.ProfileCard />
         <Cards.ContactCard />
-        <Cards.ServiceCard />
+        {/* <Cards.ServiceCard /> */}
         <Footer className="pt-4" />
       </div>
     </div>
