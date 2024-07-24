@@ -10,7 +10,7 @@ function generateSiteMap(posts: TPosts) {
        ${posts
          .filter((item) => {
            return (
-             !item.slug.startsWith("[skip]") && !item.status.includes("Private")
+             !item.slug.startsWith("[skip]") && !item.status.includes("Private") && !item.type.includes("Share")
            )
          })
          .map(({ slug }) => {
