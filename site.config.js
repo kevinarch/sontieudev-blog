@@ -5,7 +5,7 @@ const CONFIG = {
     // image: "/myface.jpeg", // If you want to create your own notion avatar, check out https://notion-avatar.vercel.app
     role: "Software Engineer",
     bio: "Explore my software engineering journey through topics and insights. Join me as I navigate the world of coding, problem-solving, and innovation",
-    email: "me@sontieu.dev",
+    email: "contact@sontieu.dev",
     linkedin: "sontieudev",
     github: "kevinarch",
     instagram: "",
