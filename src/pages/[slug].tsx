@@ -72,11 +72,20 @@ DetailPage.getLayout = function getlayout(page) {
         url: CONFIG.link,
       }
     }
+    const safeDate = () => {
+      try {
+        const dateStr = page.props.post.date?.start_date || page.props.post.createdTime
+        if (!dateStr) return undefined
+        const date = new Date(dateStr)
+        return isNaN(date.getTime()) ? undefined : date.toISOString()
+      } catch {
+        return undefined
+      }
+    }
+
     return {
       title: page.props.post.title || CONFIG.blog.title,
-      date: new Date(
-        page.props.post.date?.start_date || page.props.post.createdTime || ""
-      ).toISOString(),
+      date: safeDate(),
       image: getImage(),
       description: page.props.post.summary,
       type: page.props.post.type[0],
