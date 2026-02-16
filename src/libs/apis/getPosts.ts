@@ -31,9 +31,9 @@ export async function getPosts() {
   id = idToUuid(id)
   const collection = Object.values(response.collection)[0]?.value
   const block = response.block
-  const schema = collection?.value.schema
+  const schema = (collection as any)?.value.schema
 
-  const blockData = block[id]?.value
+  const blockData = block[id]?.value as any
   const rawMetadata = blockData?.value
 
   // Check Type
